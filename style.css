@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(174,237,36);
+    background: linear-gradient(180deg, rgba(174,237,36,1) 0%, rgba(28,204,58,1) 59%, rgba(16,122,56,1) 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-container{
+    height: 430px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    outline: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   
+}
+
+
+.top-nav-bar{
+    width: 100%;
+    display: flex;
+    gap: 130px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.back-button-icon{
+    width:30px;
+    opacity: 0.7;
+}
+
+.menu-button-icon{
+    width: 27px;
+    opacity: 0.7;
+}
+
+.app-title{
+    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    opacity: 0.7;
+    /* background-color: red; */
+    margin-right: px;
+}
+
+.search-bar-container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    height: 25px;
+    width: 90%;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.search-icon{
+    width: 15px;
+    opacity: 0.7;
+}
+
+.general-styles-for-shoe-cards{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.shoe-cards-container{
+    /* background-color: gray; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.shoe-cards{
+    /* background-color: gray; */
+    width: 180px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.shoe-card-col-1{
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.black-shoe-card{
+    width: 100%;
+    background: rgb(60,114,221);
+    background: linear-gradient(164deg, rgba(60,114,221,1) 0%, rgba(65,221,226,1) 59%, rgba(205,230,238,1) 92%);
+    height: 50%;
+    margin-top: 5px;
+}
+
+.blue-shoe-card{
+    width: 100%;
+    background: rgb(36,138,255);
+    background: linear-gradient(148deg, rgba(36,138,255,1) 0%, rgba(116,181,255,1) 59%, rgba(210,231,255,1) 92%);
+    height: 44%;
+}
+
+.shoe-card-col-2{
+    width: 50%;
+    /* background-color: darkseagreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.white-shoe-card{
+    width: 100%;
+    background: rgb(183,183,0);
+    background: linear-gradient(148deg, rgba(183,183,0,1) 0%, rgba(234,234,147,1) 59%, rgba(238,238,169,1) 92%);
+    height: 50%;
+}
+
+.wine-shoe-card{
+    width: 100%;
+    background: rgb(176,0,183);
+    background: linear-gradient(148deg, rgba(176,0,183,1) 0%, rgba(237,123,242,1) 59%, rgba(252,184,255,1) 92%);
+    height: 44%;
+    margin-top: 5px;
+    
+}
+
+
+.black-shoe-card{
+    position: relative;
+}
+
+.shoe-title{
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.sub-shoe-title{
+    font-size: 8px;
+    font-family: sans-serif;
+}
+
+.white-heart-icon{
+    width: 16px;
+    opacity: 0.8;
+}
+
+.top-section-of-black-shoe-card{
+    display: flex;
+    gap: 25px;
+    padding: 5px;
+}
+
+.black-sport-shoe{
+    width: 100px;
+    transform: rotate(-7deg);
+    position: relative;
+    z-index: 14;
+    margin-top: -10px;
+}
+
+.price{
+    font-family: sans-serif;
+    font-size: 8.5px;
+    font-weight: bold;
+    opacity: 0.65;
+    text-align: end;
+}
+
+.black-shoe-card > .price{
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    z-index: 15;
+    margin-left: -8px;
+    margin-top: -4px;
+}
+
+.wine-shoe-card{
+    position: relative;
+}
+
+.wine-sport-shoe{
+    width: 70px;
+    transform: rotate(-7deg);
+    position: relative;
+    z-index: 14;
+    margin-top: -10px;
+
+}
+
+.wine-shoe-card > .price{
+    width: 100%;
+    position: absolute;
+    z-index: 15;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.blue-shoe-card{
+    position: relative;
+}
+
+.blue-shoe-card > .price{
+    width: 100%;
+    position: absolute;
+    z-index: 15;
+    margin-left: -8px;
+    margin-top: -16px;
+}
+
+.blue-sport-shoe{
+    width: 95px;
+    transform: rotate(-7deg);
+    position: relative;
+    z-index: 16;
+    margin-top: -28px;
+}
+
+/* .blue-shoe-card > .white-heart-icon{
+    
+} */
+
+.white-shoe-card{
+    position: relative;
+}
+
+.white-shoe-card > .price{
+    width: 100%;
+    position: absolute;
+    z-index: 15;
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+.white-sport-shoe{
+    width: 100px;
+    transform: rotate(-30deg);
+    position: relative;
+    z-index: 16;
+    margin-top: -28px;
+    margin-left: -18px;
+    /* border: 1px solid black; */
+
+}
+
+.home-button-main-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.home-button-sub-container{
+    background-color: rgb(111, 206, 237);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 13;
+    margin-bottom: -25px;
+    /* outline: 3px solid rgb(255, 255, 255); */
+}
+
+.home-button-icon{
+    width: 20px;
+}
+
+.bottom-nav-bar-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bottom-nav-bar{
+    display: flex;
+    gap: 15px;
+}
+
+.bottom-nav-bar-icons{
+    width: 20px;
+    opacity: 0.7;
+}
+
+.trading-icon-container{
+    margin-right: 40px;
+}
+
+.home-button-coutout-container{
+    position: absolute;
+    z-index: 12;
+    width: 40px;
+    height: 20px;
+    border-radius: 50px 50px 0 0;
+    background-color: rgb(205, 205, 205);
+    margin-top: 395px;
+    margin-left: 40%;
+    transform: rotate(180deg);
+}
